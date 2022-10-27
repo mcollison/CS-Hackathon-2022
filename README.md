@@ -18,8 +18,14 @@ The 5 teams with the most promising showcases will be given a week to finalise t
 	- you can use https://convertio.co/ps-png/ to convert your groupname.ps file to png
 
 ### Delivery
-- Submit all three files as a pull request on the Github
-- You can use drag and drop for this.
+- Submit a pull request with all your files in a subfolder called YourGroupName
+To do this:
+- Put all three files in a folder called YourGroupName
+- Fork this repo
+- Click "add files" in the web interface
+- Drag the folder onto the interface
+- Provide a commit message
+- Make a pull request to this repository
 
 ### You can go about this in different ways:
 - Using loops and maths to produce interesting paths
