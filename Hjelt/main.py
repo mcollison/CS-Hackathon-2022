@@ -31,7 +31,7 @@ for y in range(out_resolution[1]):
                 r.append(r_)
                 g.append(g_)
                 b.append(b_)
-        colour = (sum(r)/len(r),sum(g)/len(g),sum(b)/len(b))
+        colour = (round(sum(r)/len(r)),round(sum(g)/len(g)),round(sum(b)/len(b)))
         turtle.color(colour)
         turtle.forward(1) # draw pixel
     # typewriter
