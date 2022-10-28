@@ -1,21 +1,25 @@
 import turtle
-import os
-##### Config #####
-groupname="YourGroupName"
-turtle.speed(0) # 0-10, 0 fastest, 10 slowest. Save precious time only running slow if you need to.
-turtle.colormode(255) # allows you to use (r, g, b) tuples as colors, with values 0-255
+
+turtle.colormode(255)
+
+group_name = "spent 5 minutes coding, 25 minutes getting python to work"
+t = turtle.Turtle()
+
+t.speed(0)
+t.pencolor(0, 170, 128)
+
+t.pensize(32)
+t.circle(110)
+
+t.pencolor(0,50,70)
+t.penup()
+t.left(90)
+t.forward(32)
+t.right(90)
+t.left(35)
+t.pendown()
+t.forward(20)
 
 
 
-
-
-#### Code ####
-
-
-
-
-
-########### export #########
-outputpath=os.path.dirname(os.path.abspath(__file__))+os.path.sep+groupname+'.ps'
-turtle.getscreen().getcanvas().postscript(file=outputpath)
-turtle.done()
+input()

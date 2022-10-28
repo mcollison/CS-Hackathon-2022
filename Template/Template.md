@@ -1,9 +1,7 @@
-# YourGroupName
+# misery
 
 Group Members:
-- ab123
-- xs456
-- yz789
+- will
 
-Art Piece name: YourArtPieceName
-Description: Lorem ipsum et dolor sit amet.....
+Art Piece name: technical difficulties
+Description: beautiful collision of platform architecture incompatibilities and python installs
