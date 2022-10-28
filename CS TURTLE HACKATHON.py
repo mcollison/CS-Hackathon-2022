@@ -14,8 +14,9 @@ PICTURE_DIRECTORY=DIRECTORY + "/FORUM_SMALL.JPEG"
 #### Code ####
 
 img = cv2.imread(PICTURE_DIRECTORY, 2)
+img = img.tolist()
 
-tt = turtle.turtle()
+t = turtle.Turtle()
 for i in range(img):
     t.goto(0,i)
     for j in range(img[i]):
@@ -31,3 +32,15 @@ for i in range(img):
 outputpath=os.path.dirname(os.path.abspath(__file__))+os.path.sep+groupname+'.ps'
 turtle.getscreen().getcanvas().postscript(file=outputpath)
 turtle.done()
+
+
+##### OUR CONFESSION (AMBITIONS) ##############
+"""
+Unfinished Code, do not run
+
+We wanted to recreate a picture of our lovely university with the turtle.
+Alas, we failed, but had a good time trying.
+
+Method for this, was to rip the pixel data form an existing image, and recreate with turtle pixel by pixel.
+
+################################################
