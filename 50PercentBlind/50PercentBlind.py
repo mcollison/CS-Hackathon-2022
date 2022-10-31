@@ -2,7 +2,7 @@ from PIL import Image
 from numpy import asarray
 import turtle as jeff
 
-image = Image.open("blue30.png")
+image = Image.open("50PercentBlind\\50PercentBlind.png")
 data = asarray(image)
 print(list(data[0][0]))
 

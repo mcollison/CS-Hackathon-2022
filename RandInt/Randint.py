@@ -5,7 +5,7 @@ import random
 groupname="Randint"
 turtle.speed(0) # 0-10, 0 fastest, 10 slowest. Save precious time only running slow if you need to.
 turtle.colormode(255) # allows you to use (r, g, b) tuples as colors, with values 0-255
-
+turtle.tracer(0, 0)
 #### Code ####
 trevor = turtle.Turtle()
 turtle.bgcolor("#CCFFFF")
@@ -33,15 +33,19 @@ def petals(x, y, t):
         trevor.circle(size)
         trevor.right(60)
         size += 1
+    turtle.update()
 for _ in range(25):
     x = random.randint(-300, 300)
     y = random.randint(-300, 300)
     stem(x, y, trevor)
     petals(x, y, trevor)
+    turtle.update()
 
 trevor.penup()
-while True:
-    trevor.circle(10)
+# while True:
+#     trevor.circle(10)
+#     turtle.update()
+
 
 
 

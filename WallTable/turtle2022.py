@@ -5,6 +5,8 @@
 
 
 import turtle
+import os
+groupname="walltable"
 
 
 # In[ ]:
@@ -21,7 +23,9 @@ skk.circle(-25,180)
 skk.fd(15)
 skk.rt(220)
 skk.fd(75)
-turtle.done()
+
+outputpath=os.path.dirname(os.path.abspath(__file__))+os.path.sep+groupname+'.ps'
+skk.getscreen().getcanvas().postscript(file=outputpath)
 
 
 # In[ ]:

@@ -1,5 +1,7 @@
 import turtle
+import os
 
+groupname="winners"
 t = turtle.Turtle()
 t.speed(0) # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
 
@@ -86,3 +88,6 @@ t.forward(60)
 # the masterpiece is finished
 
 t.up()
+
+outputpath=os.path.dirname(os.path.abspath(__file__))+os.path.sep+groupname+'.ps'
+turtle.getscreen().getcanvas().postscript(file=outputpath)
