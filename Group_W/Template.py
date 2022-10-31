@@ -15,7 +15,7 @@ def randomize_color():
   return t._colorstr((randint(0,255),randint(0,255),randint(0,255)))
 
 def write_names():
-  for _ in range(10000):
+  for _ in range(5000):
     for i in names:
       s._write(txt = i, align = 'right',pos = (randint(-800,800),randint(-800,800)),font = ('Verdana', randint(10,30), 'normal'), pencolor = randomize_color())
 

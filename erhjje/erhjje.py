@@ -2,7 +2,7 @@ import turtle
 import os
 import random
 ##### Config #####
-groupname="YourGroupName"
+groupname="erhjje"
 turtle.speed(0) # 0-10, 0 fastest, 10 slowest. Save precious time only running slow if you need to.
 turtle.colormode(255) # allows you to use (r, g, b) tuples as colors, with values 0-255
 

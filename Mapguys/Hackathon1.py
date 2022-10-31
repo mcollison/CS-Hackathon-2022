@@ -3,7 +3,7 @@ import turtle as t
 t.shapesize(2)
 t.color("orange")
 t.penup()
-t.bgpic("map.jpg")
+t.bgpic("Mapguys\\map.jpg")
 t.goto(82, 115)
 t.stamp()
 t.goto(112, 75)

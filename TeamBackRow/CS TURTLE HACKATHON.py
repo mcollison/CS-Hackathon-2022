@@ -8,12 +8,12 @@ groupname="TeamBackRow"
 turtle.speed(0) # 0-10, 0 fastest, 10 slowest. Save precious time only running slow if you need to.
 turtle.colormode(255) # allows you to use (r, g, b) tuples as colors, with values 0-255
 
-DIRECTORY = "/".join(__FILE__.split("/")[:-1])
-PICTURE_DIRECTORY=DIRECTORY + "/FORUM_SMALL.JPEG"
+# DIRECTORY = "/".join(__FILE__.split("/")[:-1])
+# PICTURE_DIRECTORY=DIRECTORY + "/FORUM_SMALL.JPEG"
 
 #### Code ####
 
-img = cv2.imread(PICTURE_DIRECTORY, 2)
+img = cv2.imread("TeamBackRow\FORUM_SMALL.JPEG", 2)
 img = img.tolist()
 
 t = turtle.Turtle()
@@ -44,3 +44,4 @@ Alas, we failed, but had a good time trying.
 Method for this, was to rip the pixel data form an existing image, and recreate with turtle pixel by pixel.
 
 ################################################
+"""

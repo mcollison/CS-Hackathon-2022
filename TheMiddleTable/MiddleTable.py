@@ -1,5 +1,8 @@
 import turtle
 import random
+import os
+
+groupname="MiddleTable"
 
 def TutInit(orig=None):
     if orig == None:
@@ -46,4 +49,7 @@ for i in range(5):
         shapeFunk = random.choice([Stick, RightBranchingStick, LeftBranchingStick])
         newTurtles += shapeFunk(tut)
     turtles += newTurtles
-input()
+
+
+outputpath=os.path.dirname(os.path.abspath(__file__))+os.path.sep+groupname+'.ps'
+turtle.getscreen().getcanvas().postscript(file=outputpath)
