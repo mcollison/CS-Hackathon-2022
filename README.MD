@@ -33,7 +33,17 @@ You can witness the different algorithms at play here :
 https://www.youtube.com/watch?v=fiCimSpGldQ
 
 ## Computer Science Student Reps Round
-The task was to solve a collection of Python Puzzles .
+The task was to solve a collection of Python Puzzles.
 
-The winners are still to be determined.
+The winners are:
+am1682 Alex Morgan
+fv256 Finn Van Mortan
+je497 Jamie Elder
+tr457 Taylor Roel
+jh1476 James Heppell
 
+The top three scoring groups are:
+
+- The Middle Table - 80 Points
+- Group W - 75 Points
+- erhjje - 70 Points
