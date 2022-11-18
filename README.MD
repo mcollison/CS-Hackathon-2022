@@ -36,11 +36,11 @@ https://www.youtube.com/watch?v=fiCimSpGldQ
 The task was to solve a collection of Python Puzzles.
 
 The winners are:
-am1682 Alex Morgan
-fv256 Finn Van Mortan
-je497 Jamie Elder
-tr457 Taylor Roel
-jh1476 James Heppell
+- am1682 Alex Morgan
+- fv256 Finn Van Mortan
+- je497 Jamie Elder
+- tr457 Taylor Roel
+- jh1476 James Heppell
 
 The top three scoring groups are:
 
